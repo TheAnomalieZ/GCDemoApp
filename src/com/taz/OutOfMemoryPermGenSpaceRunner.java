@@ -14,7 +14,7 @@ public class OutOfMemoryPermGenSpaceRunner {
 
         while (true) {
             ClassLoader classLoader = new URLClassLoader(new URL[]{new URL("file:memory-management.jar")}, null);
-            Class bigPermGenObjectClass = classLoader.loadClass("com.epam.ganiaev.domain.BigPermGenObject");
+            Class bigPermGenObjectClass = classLoader.loadClass("com.taz.domain.BigPermGenObject");
 
             bigPermGenObjectList.add(bigPermGenObjectClass);
         }

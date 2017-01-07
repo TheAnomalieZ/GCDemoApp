@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="GCDemoApp:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/GCDemoApp_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="GCDemoApp.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="GCDemoApp" />
+      </element>
+    </root>
+  </artifact>
+</component>
