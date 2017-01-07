@@ -14,7 +14,7 @@ public final class MemoryLeakRunner {
 
     static volatile boolean running = true;
 
-    public static void main(String[] args) throws Exception {
+    public static void start() throws Exception {
         Thread thread = new LongRunningThread();
         try {
             thread.start();

@@ -2,6 +2,8 @@ package com.taz;
 import java.util.Random;
 import com.taz.domain.LinkedObject;
 
+import static java.lang.Thread.sleep;
+
 /**
  * Created by K.Kokulan on 1/7/2017.
  */
