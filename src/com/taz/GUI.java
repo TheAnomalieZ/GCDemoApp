@@ -64,7 +64,8 @@ public class GUI extends JFrame {
         normalButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.out.println(e.getActionCommand());
-
+//                MemoryLeakGenerator.startAnomalous();
+                MemoryLeakGenerator.startNormal();
             }
 
 
