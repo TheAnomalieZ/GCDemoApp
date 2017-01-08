@@ -8,14 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eebc95b8-2248-420c-8ee6-4c9c5310af8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/GCDemoApp_jar/GCDemoApp.jar" afterPath="$PROJECT_DIR$/out/artifacts/GCDemoApp_jar/GCDemoApp.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$1.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$2.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$3.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/GUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/MemoryLeakGenerator.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/MemoryLeakGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/MemoryLeakRunner.class" afterPath="$PROJECT_DIR$/out/production/GCDemoApp/com/taz/MemoryLeakRunner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taz/MemoryLeakGenerator.java" afterPath="$PROJECT_DIR$/src/com/taz/MemoryLeakGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/taz/MemoryLeakRunner.java" afterPath="$PROJECT_DIR$/src/com/taz/MemoryLeakRunner.java" />
     </list>
     <ignored path="GCDemoApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,9 +36,11 @@
       <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/taz/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="1044">
               <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +48,8 @@
       <file leaf-file-name="MemoryLeakGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/taz/MemoryLeakGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="522">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +129,12 @@
       <file leaf-file-name="MemoryLeakRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/taz/MemoryLeakRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="342">
               <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1850#1851#0" expanded="false" />
+                <element signature="e#1920#1921#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -221,8 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -301,7 +299,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -797,12 +796,14 @@
       <workItem from="1483730765837" duration="1686000" />
       <workItem from="1483770743767" duration="577000" />
       <workItem from="1483776746235" duration="13161000" />
-      <workItem from="1483799369496" duration="3147000" />
+      <workItem from="1483799369496" duration="4822000" />
+      <workItem from="1483859434565" duration="3393000" />
+      <workItem from="1483880928178" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51282000" />
+    <option name="totallyTimeSpent" value="57804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="7" />
@@ -904,7 +905,9 @@
         <state relative-caret-position="1998">
           <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1850#1851#0" expanded="false" />
+            <element signature="e#1920#1921#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +916,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +975,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +1034,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +1093,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1152,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,26 +1303,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taz/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="1044">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taz/MemoryLeakRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="342">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1850#1851#0" expanded="false" />
+            <element signature="e#1920#1921#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taz/MemoryLeakGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="522">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
