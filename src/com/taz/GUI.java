@@ -74,8 +74,8 @@ public class GUI extends JFrame {
         stackButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.out.println(e.getActionCommand());
-                StackOverflowErrorRunner.start();
-
+//                StackOverflowErrorRunner.start();
+                MemoryLeakGenerator.startAnomalous();
             }
         });
 
@@ -94,6 +94,7 @@ public class GUI extends JFrame {
     public static void main(String[] args) {
 
         new GUI();
+
 
 
     }
