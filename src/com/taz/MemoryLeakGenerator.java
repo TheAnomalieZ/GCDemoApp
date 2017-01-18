@@ -14,21 +14,36 @@ public class MemoryLeakGenerator {
         Random rn = new Random();
 
         long startTime = System.currentTimeMillis();
-        while(false || (System.currentTimeMillis()-startTime)<30000){
+        while(false || (System.currentTimeMillis()-startTime)<200000){
 
             stack.push(new byte[rn.nextInt(1000) + 1000]);
             stack.popFixed();
+            try {
+                sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 //        startTime = System.currentTimeMillis();
 //        while(false || (System.currentTimeMillis()-startTime)<240000){
         while(false || (System.currentTimeMillis()-startTime)<60000){
             stack.push(new byte[rn.nextInt(1000) + 10000000]);
             stack.pop();
+            try {
+                sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
 
     while(true){
         stack.push(new byte[rn.nextInt(1000) + 1000]);
         stack.popFixed();
+        try {
+            sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 //        OutOfMemoryHeapSpaceRunner.start();
@@ -42,6 +57,11 @@ public class MemoryLeakGenerator {
 
             stack.push(new byte[rn.nextInt(1000) + 1000]);
             stack.popFixed();
+            try {
+                sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 
