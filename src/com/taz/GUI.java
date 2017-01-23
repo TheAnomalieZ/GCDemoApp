@@ -82,8 +82,8 @@ public class GUI extends JFrame {
         outOfMemoryButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.out.println(e.getActionCommand());
-                OutOfMemoryHeapSpaceRunner.start();
-
+//                OutOfMemoryHeapSpaceRunner.start();
+                MemoryLeakGenerator.startAnomaly3();
             }
         });
 

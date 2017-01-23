@@ -5,7 +5,7 @@ package com.taz.domain;
 public class LinkedObject {
     private Long id;
     private LinkedObject previousInstance;
-    private static long[] longs = new long[100000];
+    private static byte[] longs =new byte[1000000];
 
     public LinkedObject(LinkedObject previousInstance) {
         this.id = 1L;
